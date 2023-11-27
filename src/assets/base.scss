@@ -1,0 +1,23 @@
+$color-background: #ffffff;
+$color-background-grey: #F4F4F4;
+$color-black: #000000;
+$color-white: #ffffff;
+$color-text: #2F3144;
+$color-hover: #3761F3;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Manrope;
+  color: $color-black;
+  background: $color-background-grey;
+  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
